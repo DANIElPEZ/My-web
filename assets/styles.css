@@ -1,0 +1,33 @@
+/* Estilo base para la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento */
+    border-radius: 6px;
+}
+
+/* Estilo para el riel de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+    background: #15202b; /* Color de fondo del riel (azul oscuro) */
+}
+
+/* Estilo para el pulgar de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+    background: #1a3a53; /* Color del pulgar (azul claro) */
+    border-radius: 6px;
+}
+
+/* Estilo para el pulgar de la barra de desplazamiento cuando se está interactuando con él */
+::-webkit-scrollbar-thumb:hover {
+    background: #105288; /* Color del pulgar al pasar el cursor sobre él (azul más claro) */
+}
+@font-face {
+    font-family: Poppins-Light;
+    src: url("https://fonts.google.com/css?family=Poppins:wght@300;500&dysplay=swap") format("opentype");
+}
+@font-face {
+    font-family: Poppins-Bold;
+    src: url("https://fonts.google.com/css?family=Poppins:wght@300;500&dysplay=swap") format("opentype");
+}
+@font-face {
+    font-family: Comfortaa-medium;
+    src: url("https://fonts.google.com/css?family=Comfortaa:wght@500&dysplay=swap") format("opentype");
+}
