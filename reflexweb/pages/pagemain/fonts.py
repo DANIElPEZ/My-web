@@ -1,6 +1,6 @@
 class font():
     ft_page={
-        'logo':'Comfortaa-medium',
-        'default':'Poppins-Light',
-        'tittle':'Poppins-Bold'
+        '1':'Comfortaa-medium',
+        '2':'Roboto-Mono',
+        '3':'Open-Sans'
     }

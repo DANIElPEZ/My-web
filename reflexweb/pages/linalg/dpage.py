@@ -182,6 +182,7 @@ def showmb():
         route='/matriz',
         title=rxd.title,
         description=rxd.description,
+        image=rxd.img,
         meta=rxd.meta
         )
 def matriz3x3():

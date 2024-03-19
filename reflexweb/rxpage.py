@@ -1,14 +1,12 @@
 class rxpg():
     'CONSTANTS'
-    meta = [
-        {"char_set": "UTF-8"},
-        {"name":"desarrollo","content":"index"},
-        {"name":"viewport", "content":"width=device-width, initial-scale=1.0"},
-        {"name":"keywords", "content":"desarrollo de software con python"},
-        {"name":"description", "content":"Mi pagina de contacto"},
-        {"name":"author", "content":"Daniel Santiago Angel Gonzalez Ubaque"},
-        {"name":"copyright", "content":"danidev 2023"},
-    ]
-
     title='Dani Dev'
-    description='Mi pagina de contacto'
+    description='Este es mi portafolio de servicios'
+    img='/DVC.png'
+
+    meta = [
+        {"name": "og:type", "content": "website"},
+        {"name": "og:image", "content": img},
+        {"name": "og:title", "content": title},
+        {"name": "og:description", "content": description},
+    ]

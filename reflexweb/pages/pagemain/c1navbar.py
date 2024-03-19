@@ -61,6 +61,12 @@ def navigation():
                 href='/comments',
                 style=st.sidenav,
                 on_click=open.toglesidebar
+            ),
+            rx.link(
+                "Blog",
+                href='/blog',
+                style=st.sidenav,
+                on_click=open.toglesidebar
             )
         ),
         width='100%'

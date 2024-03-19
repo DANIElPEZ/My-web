@@ -13,6 +13,7 @@ rxd=rxd.rxpg()
         route='/tools',
         title=rxd.title,
         description=rxd.description,
+        image=rxd.img,
         meta=rxd.meta
     )
 def toolpg():

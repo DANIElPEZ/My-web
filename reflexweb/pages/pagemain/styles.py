@@ -22,7 +22,7 @@ class styles_general():
 
     stpage={
         'background_color': '#0c151d',
-        'font_family':ft.ft_page['default']
+        'font_family':ft.ft_page['1']
     }
 
     '''
@@ -44,7 +44,7 @@ class styles_general():
         'width':'100%',
     }
     navbartext={
-        'font_family':ft.ft_page['logo'],
+        'font_family':ft.ft_page['1'],
         'font_size':size['medium_big'],
         'width':'110px',
         "text_decoration":"none",
@@ -60,6 +60,7 @@ class styles_general():
         'color':'#ffffff',
         'font_size':'1.1em',
         "text_decoration":"none",
+        'font_family':ft.ft_page['2'],
         'width':'100%',
         'transition':'0.2s',
         "_hover":{
@@ -108,7 +109,7 @@ class styles_general():
         'width':'100%',
         'padding_top':size['normal'],
         'color':cl.colors_text['header'],
-        'font_family':ft.ft_page['tittle']
+        'font_family':ft.ft_page['1']
     }
     def headingstyles(self,text:str,sizel:str):
         self.headstyles['size']=sizel
@@ -137,7 +138,7 @@ class styles_general():
     bt_tittle={
         "font_size":size["normal"],
         'color':cl.colors_text['header'],
-        'font_family':ft.ft_page['tittle']
+        'font_family':ft.ft_page['2']
     }
     bt_body={
         "font_size":size["medium"],

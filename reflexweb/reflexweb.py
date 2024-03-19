@@ -11,6 +11,7 @@ from reflexweb.pages.myroute.myroute import myroute
 from reflexweb.pages.juegoweb.jugar import juego
 from reflexweb.pages.comentarios.commentpg import comentpg
 from reflexweb.pages.sevices.service import service_examples
+from reflexweb.pages.blog.blog import blog
 import reflexweb.rxpage as rxd
 from pymongo import MongoClient
 
@@ -23,6 +24,7 @@ queries=MongoClient('your mongo host').comentarios
 @rx.page(
         route='/',
         title=rxd.title,
+        image=rxd.img,
         description=rxd.description,
         meta=rxd.meta
         )

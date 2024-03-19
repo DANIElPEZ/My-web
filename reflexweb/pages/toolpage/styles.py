@@ -20,7 +20,7 @@ class styles_mtpg():
         'margin_y':st.size['normal']
     }
     texthd={
-        'font_family':ft.ft_page['tittle'],
+        'font_family':ft.ft_page['2'],
         'font_size':st.size['medium_big'],
         'color':cl.colors_text['header'],
         'margin_bottom':st.size['normal'],

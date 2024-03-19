@@ -54,7 +54,8 @@ def mobile():
                                 margin_top='10px'
                             ),
                             downloadbtn('/programas/vectores.zip'),
-                            margin_left='10px'
+                            margin_left='10px',
+                            padding_top='10px'
                         ),
                         style=mst.pjd
                     )
@@ -101,6 +102,7 @@ def desktop():
         route='/services/desktop',
         title=rxd.title,
         description=rxd.description,
+        image=rxd.img,
         meta=rxd.meta
         )
 def service_examples():

@@ -22,7 +22,7 @@ def headerpt1():
                             'DANI',
                              size='7',
                              color=cl.colors_text['header'],
-                             font_family=ft.ft_page['tittle']
+                             font_family='open sans'
                         ),
                         rx.heading(
                             "@Danidev",

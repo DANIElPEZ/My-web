@@ -91,14 +91,14 @@ def commentinput():
             on_change=State.set_name,
             value=State.name,
             placeholder='Escribe tu nombre',
-            width='140%',
+            width='110%',
             style=mst.yourname
         ),
         rx.text(State.wmsgnm[State.poswmsgnm],
                 color=State.wmsgcolors[State.poswmsgnm]
         ),
         rx.chakra.text_area(
-            width='150%',
+            width='110%',
             height='150px',
             placeholder='Escribe algo',
             value=State.comsend,
@@ -121,6 +121,7 @@ def commentinput():
         route='/comments',
         title=rxd.title,
         description=rxd.description,
+        image=rxd.img,
         meta=rxd.meta,
         on_load=State.cargar
         )

@@ -92,6 +92,7 @@ def mobile():
 @rx.page(route='/game',
         title=rxd.title,
         description=rxd.description,
+        image=rxd.img,
         meta=rxd.meta
 )
 def juego():
