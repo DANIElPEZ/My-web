@@ -4,6 +4,7 @@ from reflexweb.pages.pagemain.c4footer import footer
 import reflexweb.rxpage as rdx
 import reflexweb.pages.pagemain.styles as st
 from reflexweb.pages.sevices.service import downloadbtn
+import datetime as dt
 
 rdx=rdx.rxpg()
 st=st.styles_general()
@@ -107,7 +108,8 @@ def mytoolsdk():
                 margin='5px',
                 padding='10px',
                 border_color='#ffffff',
-                border_width='2px'
+                border_width='2px',
+                margin_y='10px'
                  ),
         rx.text(
                 'Lo primero que debes hacer es ir a ',rx.chakra.icon(tag="arrow_forward"),
@@ -165,7 +167,8 @@ import sys
             margin='5px',
             padding='10px',
             border_color='#ffffff',
-            border_width='2px'
+            border_width='2px',
+            margin_y='10px'
         ),
         rx.text('''
                 Despues ejecuta "reflex init", se inicializara el proyecto. NOTA: este solo es durante la creacion del proyecto.
@@ -255,7 +258,8 @@ def mytoolsmb():
                 margin='5px',
                 padding='10px',
                 border_color='#ffffff',
-                border_width='2px'
+                border_width='2px',
+                margin_y='10px'
                  ),
         rx.text(
                 'Lo primero que debes hacer es ir a ',rx.chakra.icon(tag="arrow_forward"),
@@ -265,19 +269,163 @@ def mytoolsmb():
                 text_align='justify'
                 ),
         rx.box(
-            downloadbtn('/programas/fix_init.py')
+            downloadbtn('/programas/fix_init.py'),
+            padding_y='10px'
         ),
         rx.text('''
-                Despues ejecuta "reflex init", se inicializara el proyecto. NOTA: este solo es durante la creacion del proyecto.
-                Y para compilar y desplegar dejan la funcion original con el atajo de teclado "ctrl + z".
-                ''',
-                color='#ffffff',
-                text_align='justify'
-                )
+            Despues ejecuta "reflex init", se inicializara el proyecto. NOTA: este solo es durante la creacion del proyecto.
+            Y para compilar y desplegar dejan la funcion original con el atajo de teclado "ctrl + z".
+            ''',
+            color='#ffffff',
+            text_align='justify'
+        )
     )
 
 def hobbies():
-    return
+    return rx.box(
+        rx.heading(
+            'Mis hobbies',
+            size='6',
+            color='#a0e69c'
+            ),
+        rx.heading(
+            'La aviacion',
+            sixe='4',
+            color='#9ce6df',
+            padding_y='18px'
+            ),
+        rx.text('''
+                La aviacion sigue siendo uno de mis hobiies principales,
+                para ello uso 3 simuladores dependiendo del avion que quiera volar, 
+                aeropuertos, entre otras cosas especificas de cada simulador, uso  ''',
+                 rx.chakra.icon(tag="arrow_forward"),
+                '  X-PLANE 11, PREPAR3D V4, MICROSOFT FLIGHT SIMULATOR X STEAM EDITION.',
+                color='#ffffff',
+                text_align='justify'
+                ),
+        rx.desktop_only(
+            rx.hstack(
+                rx.image(
+                    src='/xplane-11.jpg',
+                    height='90px'
+                ),
+                rx.image(
+                    src='/fsx.jpg',
+                    height='90px'
+                ),
+                rx.image(
+                    src='/p3d.webp',
+                    height='90px'
+                ),
+                margin_y='10px',
+            )
+        ),
+        rx.mobile_and_tablet(
+            rx.center(
+                rx.vstack(
+                    rx.image(
+                        src='/xplane-11.jpg',
+                        width='500px'
+                    ),
+                    rx.image(
+                        src='/fsx.jpg',
+                        width='500px'
+                    ),
+                    rx.image(
+                        src='/p3d.webp',
+                        width='500px'
+                    ),
+                    margin_y='10px',
+                )
+            )
+        ),
+        rx.text(f'+{dt.date.today().year-2019} Años en simulacion de vuelo.',
+                color='#ffffff',
+                text_align='center'
+                ),
+        rx.heading(
+            'Aviones preferidos',
+            sixe='4',
+            color='#9ce6df',
+            padding_y='18px'
+            ),
+            rx.box(
+                rx.desktop_only(
+                    rx.heading(
+                        'Lockheed Constellation L049',
+                        size='3',
+                        color='#d4ac6c',
+                        padding_y='10px'
+                    ),
+                    rx.hstack(
+                        rx.image(src='/ckconstellation.jpg',height='127px'),
+                        rx.image(src='/outconstellation.jpg',height='127px')
+                    ),
+                    rx.heading(
+                        'Concorde',
+                        size='3',
+                        color='#d4ac6c',
+                        padding_y='10px'
+                    ),
+                    rx.hstack(
+                        rx.image(src='/ckconcorde.webp',height='134px'),
+                        rx.image(src='/outconcorde.webp',height='134px')
+                    )
+                ),
+                rx.mobile_and_tablet(
+                    rx.heading(
+                        'Lockheed Constellation L049',
+                        size='3',
+                        color='#d4ac6c',
+                        padding_y='10px'
+                    ),
+                    rx.image(src='/ckconstellation.jpg'),
+                    rx.image(src='/outconstellation.jpg'),
+                    rx.heading(
+                        'Concorde',
+                        size='3',
+                        color='#d4ac6c',
+                        padding_y='10px'
+                    ),
+                    rx.image(src='/ckconcorde.webp'),
+                    rx.image(src='/outconcorde.webp')
+                )
+            ),
+        rx.heading(
+            'El ilusionismo',
+            sixe='4',
+            color='#9ce6df',
+            padding_y='18px'
+        ),
+        rx.heading(
+            'Cartomagia Lentidigitación',
+            color='#cbcbcb'
+            ),
+        rx.text('''
+                El ilusionismo es mi segundo hobbie, 
+                donde yo me represento con esta area del ilusionismo que es la lentidigitacion, 
+                el autor y creador de esta area fue el mago argentino de una sola mano Hector Rene Lavandera, 
+                de los juegos que el hizo y yo tambien hago son: "No se puede hacer mas lento", "El soneto", 
+                "La carta ambiciosa", "Mi juego credencial", "As, dos, tres, cuatro", "Adivinando".
+                ''',
+                color='#ffffff',
+                padding_y='10px',
+                text_align='justify'
+                ),
+        rx.center(
+            rx.vstack(
+                rx.image(
+                    src='/rene.jpg',
+                    width='400px'
+                ),
+                rx.video(
+                   url='https://youtu.be/ZEwyIDL0YfM?si=hj77iYhR5rmGRnaG',
+                   width='100%'
+                )
+            ),
+        ),
+        margin_y=st.size['big']
+    )
 
 @rx.page(
     route='/blog',
@@ -298,7 +446,7 @@ def blog():
                 rx.mobile_and_tablet(
                     mytoolsmb()
                 ),
-                #hobbies(),
+                hobbies(),
                 max_width=st.max_width,
                 width="100%",
                 margin_y=st.size['big'],
