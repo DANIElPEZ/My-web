@@ -29,6 +29,7 @@ def ptleft(icon):
     return rx.vstack(
                     rx.heading(
                         'CANVA PRESENTATIONS',
+                        as_='h2',
                         size='3'
                     ),
                     cvpresentations(
@@ -80,6 +81,7 @@ def ptright():
     return rx.vstack(
                     rx.heading(
                         'Contact',
+                        as_='h2',
                         size="6"
                     ),
                     rx.text(

@@ -6,8 +6,8 @@ st=st.styles_general()
 
 def center():
     return rx.vstack(
-        st.headingstyles("Mi ruta",'7'),
-        st.headingstyles("Logica de programacion","4"),
+        st.headingstyles("Mi ruta",'7','h2'),
+        st.headingstyles("Logica de programacion","4",'h3'),
         buttons_links(
             "Logica",
             "La Geekipedia De Ernesto",
@@ -16,7 +16,7 @@ def center():
             True,
             "#535353"
         ),
-        st.headingstyles("Python","4"),
+        st.headingstyles("Python","4",'h3'),
         buttons_links(
             "Programacion basica",
             "La Geekipedia De Ernesto",
@@ -33,7 +33,7 @@ def center():
             True,
             "#0C2D57"
         ),
-        st.headingstyles("Desktop apps","4"),
+        st.headingstyles("Desktop apps","4",'h3'),
         buttons_links(
             "Interfaz grafica tkinter",
             "Pildoras informaticas + ChatGPT",
@@ -50,7 +50,7 @@ def center():
             True,
             "#4d9b2b"
         ),
-        st.headingstyles("Web frontend","4"),
+        st.headingstyles("Web frontend","4",'h3'),
         buttons_links(
             "Reflex framework",
             "MoureDev by Brais Moure",
@@ -59,7 +59,7 @@ def center():
             True,
             "#474F7A"
         ),
-        st.headingstyles("Base de datos","4"),
+        st.headingstyles("Base de datos","4",'h3'),
         buttons_links(
             "MySQL",
             "yacklyon",
@@ -76,7 +76,7 @@ def center():
             True,
             "#3A98B9"
         ),
-        st.headingstyles("Enlace para aprender","4"),
+        st.headingstyles("Enlace para aprender","4",'h3'),
         buttons_links(
             "W3schools",
             "Varias tecnologias",

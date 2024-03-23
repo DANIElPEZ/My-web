@@ -190,7 +190,11 @@ def matriz3x3():
         navbar(),
         rx.chakra.center(
             rx.chakra.vstack(
-                rx.heading('Mi primer proyecto',style=mst.styleshd),
+                rx.heading(
+                    'Mi primer proyecto',
+                    style=mst.styleshd,
+                    as_='h2'
+                    ),
                 input(),
                 showdesktop(),
                 showmb(),

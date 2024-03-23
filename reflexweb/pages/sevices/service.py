@@ -110,8 +110,8 @@ def service_examples():
         navbar(),
         rx.center(
             rx.vstack(
-                    st.headingstyles("Proyectos principales",'7'),
-                    st.headingstyles('Algebra lineal','4'),
+                    st.headingstyles("Proyectos principales",'7','h2'),
+                    st.headingstyles('Algebra lineal','4','h3'),
                     rx.desktop_only(
                         desktop()
                     ),
@@ -119,12 +119,12 @@ def service_examples():
                         mobile()
                     ),
                     rx.box(
-                        st.headingstyles("Otros proyectos",'7'),
-                        st.headingstyles("Espiral de Ulam","4"),
+                        st.headingstyles("Otros proyectos",'7','h3'),
+                        st.headingstyles("Espiral de Ulam","4",'h4'),
                         downloadbtn('/programas/ulamspiral.zip'),
-                        st.headingstyles('Juego Pong','4'),
+                        st.headingstyles('Juego Pong','4','h4'),
                         downloadbtn('/programas/pong.zip'),
-                        st.headingstyles('Juego piedra, papel o tijera','4'),
+                        st.headingstyles('Juego piedra, papel o tijera','4','h4'),
                         downloadbtn('/programas/rockpaperscissor.zip')
                     ),
                     max_width=st.max_width,

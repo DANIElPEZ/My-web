@@ -100,7 +100,7 @@ def juego():
         navbar(),
         rx.center(
             rx.chakra.vstack(
-                rx.heading("Piedra, Papel o Tijera",style=mst.styleshd),
+                rx.heading("Piedra, Papel o Tijera",style=mst.styleshd,as_='h2'),
                 rx.chakra.vstack(
                     rx.text('Computadora',
                             style=mst.text_game,

@@ -1,0 +1,1 @@
+module.exports = {"siteUrl": "https://danidev.reflex.run", "generateRobotsTxt": true, "outDir": "_static"}

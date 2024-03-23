@@ -34,12 +34,14 @@ def mytoolsdk():
         rx.heading('Las herramientas que yo uso',
                    size='6',
                    color='#b9ccf2',
-                   padding_top='25px'
+                   padding_top='25px',
+                   as_='h2'
                    ),
         rx.heading('IDE',
                    size='4',
                    color='#29e1c9',
-                   padding_top='18px'
+                   padding_top='18px',
+                   as_='h3'
                    ),
         rx.image(
                     src='/blgvsc.jpg',
@@ -64,7 +66,8 @@ def mytoolsdk():
         rx.heading('Herramientas',
                    size='4',
                    color='#29e1c9',
-                   padding_top='18px'
+                   padding_top='18px',
+                   as_='h3'
                    ),
         rx.image(
                 src='/pwtoys.jpg',
@@ -90,12 +93,14 @@ def mytoolsdk():
         rx.heading('Solucion a',
                    size='6',
                    color='#f2f1b9',
-                   padding_top='25px'
+                   padding_top='25px',
+                   as_='h3'
         ),
         rx.heading('Reflex',
                    size='4',
                    color='#cbd428',
-                   padding_top='18px'
+                   padding_top='18px',
+                   as_='h3'
                    ),
         rx.text(
                 """
@@ -184,12 +189,14 @@ def mytoolsmb():
         rx.heading('Las herramientas que yo uso',
                    size='6',
                    color='#b9ccf2',
-                   padding_top='25px'
+                   padding_top='25px',
+                   as_='h3'
                    ),
         rx.heading('IDE',
                    size='4',
                    color='#29e1c9',
-                   padding_top='18px'
+                   padding_top='18px',
+                   as_='h3'
                    ),
         rx.image(
                     src='/blgvsc.jpg',
@@ -214,7 +221,8 @@ def mytoolsmb():
         rx.heading('Herramientas',
                    size='4',
                    color='#29e1c9',
-                   padding_top='18px'
+                   padding_top='18px',
+                   as_='h3'
                    ),
         rx.image(
                 src='/pwtoys.jpg',
@@ -240,12 +248,14 @@ def mytoolsmb():
         rx.heading('Solucion a',
                    size='6',
                    color='#f2f1b9',
-                   padding_top='25px'
+                   padding_top='25px',
+                   as_='h3'
         ),
         rx.heading('Reflex',
                    size='4',
                    color='#cbd428',
-                   padding_top='18px'
+                   padding_top='18px',
+                   as_='h3'
                    ),
         rx.text(
                 """
@@ -286,13 +296,15 @@ def hobbies():
         rx.heading(
             'Mis hobbies',
             size='6',
-            color='#a0e69c'
+            color='#a0e69c',
+            as_='h3'
             ),
         rx.heading(
             'La aviacion',
             sixe='4',
             color='#9ce6df',
-            padding_y='18px'
+            padding_y='18px',
+            as_='h3'
             ),
         rx.text('''
                 La aviacion sigue siendo uno de mis hobiies principales,
@@ -347,7 +359,8 @@ def hobbies():
             'Aviones preferidos',
             sixe='4',
             color='#9ce6df',
-            padding_y='18px'
+            padding_y='18px',
+            as_='h3'
             ),
             rx.box(
                 rx.desktop_only(
@@ -355,7 +368,8 @@ def hobbies():
                         'Lockheed Constellation L049',
                         size='3',
                         color='#d4ac6c',
-                        padding_y='10px'
+                        padding_y='10px',
+                        as_='h3'
                     ),
                     rx.hstack(
                         rx.image(src='/ckconstellation.jpg',height='127px'),
@@ -365,7 +379,8 @@ def hobbies():
                         'Concorde',
                         size='3',
                         color='#d4ac6c',
-                        padding_y='10px'
+                        padding_y='10px',
+                        as_='h3'
                     ),
                     rx.hstack(
                         rx.image(src='/ckconcorde.webp',height='134px'),
@@ -377,7 +392,8 @@ def hobbies():
                         'Lockheed Constellation L049',
                         size='3',
                         color='#d4ac6c',
-                        padding_y='10px'
+                        padding_y='10px',
+                        as_='h3'
                     ),
                     rx.image(src='/ckconstellation.jpg'),
                     rx.image(src='/outconstellation.jpg'),
@@ -385,7 +401,8 @@ def hobbies():
                         'Concorde',
                         size='3',
                         color='#d4ac6c',
-                        padding_y='10px'
+                        padding_y='10px',
+                        as_='h3'
                     ),
                     rx.image(src='/ckconcorde.webp'),
                     rx.image(src='/outconcorde.webp')
@@ -395,11 +412,13 @@ def hobbies():
             'El ilusionismo',
             sixe='4',
             color='#9ce6df',
-            padding_y='18px'
+            padding_y='18px',
+            as_='h3'
         ),
         rx.heading(
             'Cartomagia Lentidigitación',
-            color='#cbcbcb'
+            color='#cbcbcb',
+            as_='h3'
             ),
         rx.text('''
                 El ilusionismo es mi segundo hobbie, 

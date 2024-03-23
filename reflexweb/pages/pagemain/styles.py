@@ -111,10 +111,11 @@ class styles_general():
         'color':cl.colors_text['header'],
         'font_family':ft.ft_page['1']
     }
-    def headingstyles(self,text:str,sizel:str):
+    def headingstyles(self,text:str,sizel:str,_as_:str):
         self.headstyles['size']=sizel
         return rx.heading(
             text,
+            as_=_as_,
             size=sizel,
             style=self.headstyles
         )

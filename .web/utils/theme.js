@@ -1,0 +1,1 @@
+export default {"styles": {"global": {":root": {}, "body": {"backgroundColor": "#0c151d", "fontFamily": "Comfortaa-medium"}}}}

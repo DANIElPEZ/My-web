@@ -34,8 +34,8 @@ def buttons_links(text1:str,text2:str,url:str,icono:str,goout:bool,hover:str):
 
 def links():
     return rx.vstack(
-        st.headingstyles("Enlaces de interes",'7'),
-        st.headingstyles("Lenguaje","4"),
+        st.headingstyles("Enlaces de interes",'7','h2'),
+        st.headingstyles("Lenguaje","4",'h3'),
         buttons_links(
             "Python",
             "Pagina oficial de python",
@@ -44,7 +44,7 @@ def links():
             True,
             cl.colorsg['secondary']
                     ),
-        st.headingstyles('Redes sociales','4'),
+        st.headingstyles('Redes sociales','4','h3'),
         buttons_links(
             "Instagram",
             "Mi perfil de instagram",
@@ -61,7 +61,7 @@ def links():
             True,
             cl.colorsg['secondary']
                     ),
-        st.headingstyles('Software','4'),
+        st.headingstyles('Software','4','h3'),
         buttons_links(
             "Programas",
             "Software libre",
@@ -70,7 +70,7 @@ def links():
             True,
             cl.colorsg['secondary']
                     ),
-        st.headingstyles('Mi ruta','4'),
+        st.headingstyles('Mi ruta','4','h3'),
         buttons_links(
             "Recursos para estudiar",
             "Lo que yo se",
@@ -79,7 +79,7 @@ def links():
             False,
             cl.colorsg['secondary']
                     ),
-        st.headingstyles('Otros enlaces','4'),
+        st.headingstyles('Otros enlaces','4','h3'),
         buttons_links(
             "Herramientas",
             "Paginas externas",

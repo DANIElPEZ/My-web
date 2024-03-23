@@ -19,6 +19,7 @@ def header():
                         ),
                         rx.heading(
                             "Mi ruta",
+                            as_='h2',
                             style=st.styleshd
                         ),
                         rx.text(

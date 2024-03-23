@@ -6,8 +6,8 @@ st=st.styles_general()
 
 def center():
     return rx.vstack(
-        st.headingstyles("Enlaces de trabajo",'7'),
-        st.headingstyles("Inteligencia artificial","4"),
+        st.headingstyles("Enlaces de trabajo",'7','h2'),
+        st.headingstyles("Inteligencia artificial","4",'h3'),
         buttons_links(
             "ChatGPT",
             "",
@@ -16,7 +16,7 @@ def center():
             True,
             "#728b55"
         ),
-        st.headingstyles("Editor de codigo","4"),
+        st.headingstyles("Editor de codigo","4",'h3'),
         buttons_links(
             "Visual Studio Code",
             "",
@@ -25,7 +25,7 @@ def center():
             True,
             "#0A4D68"
         ),
-        st.headingstyles("Control de versiones","4"),
+        st.headingstyles("Control de versiones","4",'h3'),
         buttons_links(
             "Git",
             "",
@@ -42,8 +42,8 @@ def center():
             True,
             "#444444"
         ),
-        st.headingstyles("Base de datos","4"),
-        st.headingstyles("Relacionales","3"),
+        st.headingstyles("Base de datos","4",'h3'),
+        st.headingstyles("Relacionales","3",'h4'),
         buttons_links(
             "PostgreSQL",
             "",
@@ -68,7 +68,7 @@ def center():
             True,
             "#3A98B9"
         ),
-        st.headingstyles("No relacionales","3"),
+        st.headingstyles("No relacionales","3",'h4'),
         buttons_links(
             "MongoDB",
             "",
@@ -77,8 +77,8 @@ def center():
             True,
             "#7abf5b"
         ),
-        st.headingstyles("Expresiones regulares",'4'),
-        st.headingstyles("Referencias",'3'),
+        st.headingstyles("Expresiones regulares",'4','h3'),
+        st.headingstyles("Referencias",'3','h4'),
         buttons_links(
             "Tabla",
             "",
@@ -95,7 +95,7 @@ def center():
             True,
             "#1a2c42"
         ),
-        st.headingstyles("Motor de busqueda","4"),
+        st.headingstyles("Motor de busqueda","4",'h3'),
         buttons_links(
             "Google",
             "",

@@ -20,6 +20,7 @@ def headerpt1():
                     rx.vstack(
                         rx.heading(
                             'DANI',
+                             as_='h1',
                              size='7',
                              color=cl.colors_text['header'],
                              font_family='open sans'
@@ -27,6 +28,7 @@ def headerpt1():
                         rx.heading(
                             "@Danidev",
                             size='3',
+                            as_='h3',
                             padding_top='0px !important',
                             color=cl.colors_text['body']
                         ),
@@ -64,6 +66,7 @@ def headerpt4():
         rx.heading(
             'Mis Servicios',
             size='3',
+            as_='h2',
             padding_top='0px !important',
             color="#e7ecf1"
         ),
